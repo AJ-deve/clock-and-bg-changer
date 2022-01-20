@@ -1,0 +1,132 @@
+body {
+  /* background-image: url("https://cdn.wallpapersafari.com/41/17/pItFRM.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-timing-function: ease-in-out; */
+  background-color: rgb(31, 43, 156);
+}
+
+.clock {
+  background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77702094568.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 10%;
+  left: 35%;
+  width: 500px;
+  height: 500px;
+  border: 20px solid rgb(14, 167, 167);
+  border-radius: 50%;
+  box-shadow: 27px 25px 17px 3px rgba(0, 0, 0, 0.77);
+  -webkit-box-shadow: 27px 25px 17px 3px rgba(0, 0, 0, 0.77);
+  -moz-box-shadow: 27px 25px 17px 3px rgba(0, 0, 0, 0.77);
+}
+
+.hour {
+  position: absolute;
+  margin-left: 5%;
+  width: 45%;
+  height: 2%;
+  background-color: rgb(87, 24, 145);
+  top: 50%;
+  transform: rotate(30deg);
+  border-radius: 30px;
+  transform-origin: 100%;
+  -webkit-box-shadow: 5px 5px 15px 5px #ff8080, -9px 5px 15px 5px #ffe488,
+    -7px -5px 15px 5px #8cff85, 12px -5px 15px 5px #80c7ff,
+    12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b,
+    -10px -7px 27px 1px #8e5cff, -48px -42px 0px -30px rgba(0, 0, 0, 0);
+  box-shadow: 5px 5px 15px 5px #ff8080, -9px 5px 15px 5px #ffe488,
+    -7px -5px 15px 5px #8cff85, 12px -5px 15px 5px #80c7ff,
+    12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b,
+    -10px -7px 27px 1px #8e5cff, -48px -42px 0px -30px rgba(0, 0, 0, 0);
+}
+
+.mins {
+  position: absolute;
+  margin-left: 5%;
+  width: 45%;
+  height: 2%;
+  background-color: rgb(65, 18, 109);
+  top: 50%;
+  transform: rotate(40deg);
+  transform-origin: 100%;
+  border-radius: 30px;
+  -webkit-box-shadow: 4px -4px 15px 0px #ff1f1f, 12px -11px 7px 0px #ff9376,
+    20px -5px 7px 0px #ffe264, 20px 6px 7px 0px #f6ff33,
+    13px 12px 17px 0px #ff9527, 2px 17px 17px 0px #ff0000,
+    -9px 21px 18px 0px #fff212, -9px 6px 11px 0px #ff0808,
+    -11px -9px 11px 0px #fffa17, -11px -9px 11px 0px #fffa17,
+    -48px -42px 0px -30px rgba(0, 0, 0, 0);
+  box-shadow: 4px -4px 15px 0px #ff1f1f, 12px -11px 7px 0px #ff9376,
+    20px -5px 7px 0px #ffe264, 20px 6px 7px 0px #f6ff33,
+    13px 12px 17px 0px #ff9527, 2px 17px 17px 0px #ff0000,
+    -9px 21px 18px 0px #fff212, -9px 6px 11px 0px #ff0808,
+    -11px -9px 11px 0px #fffa17, -11px -9px 11px 0px #fffa17,
+    -48px -42px 0px -30px rgba(0, 0, 0, 0);
+}
+
+.second-hand {
+  transition: all 0.5s;
+  border-radius: 30px;
+  position: absolute;
+  margin-left: 5%;
+  width: 45%;
+  height: 2%;
+  background-color: rgb(46, 14, 77);
+  top: 50%;
+  transform: rotate(90deg);
+  transform-origin: 100%;
+  transition-timing-function: cubic-bezier(1, -0.16, 0.11, 2.38);
+  -webkit-box-shadow: 8px 0px 0px 0px #dcd0c0, 0px 8px 0px 0px #b1938b,
+    -8px 0px 0px 0px #4e4e56, 0px 0px 0px 8px #da635d,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 8px 0px 0px 0px #dcd0c0, 0px 8px 0px 0px #b1938b,
+    -8px 0px 0px 0px #4e4e56, 0px 0px 0px 8px #da635d,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.date {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.back-text{
+  position: absolute;
+  left: 45%;
+  top: 2%;
+}
+
+.back-text h1{
+  text-align: center;
+  position: relative;
+  right: 30%;
+  font-family: 'Courier New', Courier, monospace;
+  color: #39cccc;
+}
+
+.btn-1 {
+  position: relative;
+  font-family: "Dosis", sans-serif;
+  color: #39cccc;
+  padding: 10px 20px;
+  background: none;
+  border: 2px solid #0074d9;
+  border-radius: 10px 100px / 120px;
+  transition: all 0.4s;
+}
+
+.btn-1::after {
+  transform: translateY(-5px);
+}
+
+.btn-1:hover {
+  border-color: #7fdbff;
+  color: white;
+  border-radius: 100px 10px / 120px;
+  box-shadow: 0 0.5em 0.5em 0.1em #36abeb;
+  transform: translateY(-10px);
+  cursor: pointer;
+}
