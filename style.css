@@ -4,6 +4,8 @@ body {
   background-repeat: no-repeat;
   transition-timing-function: ease-in-out; */
   background-color: rgb(31, 43, 156);
+  transition: all 0.7s;
+  
 }
 
 .clock {
